@@ -1,1 +1,25 @@
-/*  your css code here. If applicable */
+.hero {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    flex-direction: column; /* Stack items vertically */
+    height: 100vh; /* Full height of the viewport */
+    text-align: center; /* Center text */
+    padding: 20px; /* Add some padding */
+}
+
+.hero img {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Cover the container */
+    max-height: 400px; /* Limit the height */
+}
+
+.explore-button {
+    padding: 10px 20px; /* Add padding */
+    background-color: #e60023; /* Button color */
+    color: white; /* Text color */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    margin-top: 20px; /* Space above the button */
+}
